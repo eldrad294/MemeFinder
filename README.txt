@@ -9,3 +9,10 @@ HOW TO USE:
 #
 #
 #########################MEMEFINDER#########################
+#
+#
+TIPS:
+1) Place # in config file to 'comment' urls inside file
+#
+#
+#########################MEMEFINDER#########################
