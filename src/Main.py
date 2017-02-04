@@ -33,7 +33,7 @@ for line in file:
         page = urlopen(obj.get_url()).read()
     except urllib.error.URLError as e:
         print(e)
-        print("Url does not exist: ["+obj.get_url()+"]")
+        print("["+obj.get_url()+"] did not give me any memes!")
         continue
     soup = BeautifulSoup(page, 'html.parser')
     soup = soup.find_all(obj.get_element())

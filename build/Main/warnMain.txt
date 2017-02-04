@@ -13,8 +13,8 @@ missing module named vms_lib - imported by platform, C:\Users\eldrad\Desktop\Mem
 missing module named termios - imported by tty, getpass, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
 missing module named grp - imported by shutil, tarfile, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
 missing module named _dummy_threading - imported by dummy_threading, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
-missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, netrc, getpass, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
 missing module named org - imported by copy, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
+missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, netrc, getpass, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
 missing module named _scproxy - imported by urllib.request
 missing module named iconv_codec - imported by bs4.dammit
 missing module named chardet - imported by bs4.dammit
