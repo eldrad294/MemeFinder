@@ -3,8 +3,8 @@
 block_cipher = None
 
 
-a = Analysis(['C:\\Users\\eldrad\\Desktop\\MemeFinder\\src\\Main.py'],
-             pathex=['C:\\Users\\eldrad\\Desktop\\MemeFinder'],
+a = Analysis(['src/Main.py'],
+             pathex=['/home/eldrad/Projects/MemeFinder'],
              binaries=[],
              datas=[],
              hiddenimports=[],

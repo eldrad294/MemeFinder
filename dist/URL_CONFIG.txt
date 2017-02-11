@@ -1,7 +1,4 @@
-a,data-outbound-url,https://www.reddit.com/r/pics/
-a,data-outbound-url,https://www.reddit.com/r/memes/
-a,data-outbound-url,https://www.reddit.com/r/funny/
-#img,src,https://www.instagram.com/cringey.meme/?hl=en
-a,data-outbound-url,https://www.reddit.com/r/dankmemes/
-a,data-outbound-url,https://www.reddit.com/r/me_irl/
-a,data-outbound-url,https://www.reddit.com/r/ImGoingToHellForThis/
+div,data-url,https://www.reddit.com/r/memes/top/
+div,data-url,https://www.reddit.com/r/dankmemes/top/
+div,data-url,https://www.reddit.com/r/roastme/top/
+img,src,https://www.instagram.com/cringey.meme/?hl=en

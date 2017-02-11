@@ -1,25 +1,24 @@
-missing module named resource - imported by posix, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
-missing module named posix - imported by os, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
-missing module named _posixsubprocess - imported by subprocess, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
-missing module named 'org.python' - imported by pickle, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py, xml.sax
-missing module named ce - imported by os, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
-missing module named readline - imported by cmd, code, pdb, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
-excluded module named _frozen_importlib - imported by importlib, importlib.abc, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
-missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
-missing module named _winreg - imported by platform, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
-missing module named java - imported by platform, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
-missing module named 'java.lang' - imported by platform, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py, xml.sax._exceptions
-missing module named vms_lib - imported by platform, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
-missing module named termios - imported by tty, getpass, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
-missing module named grp - imported by shutil, tarfile, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
-missing module named _dummy_threading - imported by dummy_threading, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
-missing module named org - imported by copy, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
-missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, netrc, getpass, C:\Users\eldrad\Desktop\MemeFinder\src\Main.py
+missing module named 'org.python' - imported by pickle, xml.sax, /home/eldrad/Projects/MemeFinder/src/Main.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, /home/eldrad/Projects/MemeFinder/src/Main.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, /home/eldrad/Projects/MemeFinder/src/Main.py
+missing module named _winreg - imported by platform, /home/eldrad/Projects/MemeFinder/src/Main.py
+missing module named java - imported by platform, /home/eldrad/Projects/MemeFinder/src/Main.py
+missing module named 'java.lang' - imported by platform, xml.sax._exceptions, /home/eldrad/Projects/MemeFinder/src/Main.py
+missing module named vms_lib - imported by platform, /home/eldrad/Projects/MemeFinder/src/Main.py
+missing module named winreg - imported by platform, mimetypes, urllib.request, /home/eldrad/Projects/MemeFinder/src/Main.py
+missing module named nt - imported by os, ntpath, shutil, /home/eldrad/Projects/MemeFinder/src/Main.py
+missing module named ce - imported by os, /home/eldrad/Projects/MemeFinder/src/Main.py
+missing module named msvcrt - imported by subprocess, getpass, /home/eldrad/Projects/MemeFinder/src/Main.py
+missing module named _winapi - imported by subprocess, /home/eldrad/Projects/MemeFinder/src/Main.py
+missing module named _dummy_threading - imported by dummy_threading, /home/eldrad/Projects/MemeFinder/src/Main.py
+missing module named org - imported by copy, /home/eldrad/Projects/MemeFinder/src/Main.py
 missing module named _scproxy - imported by urllib.request
 missing module named iconv_codec - imported by bs4.dammit
-missing module named chardet - imported by bs4.dammit
 missing module named cchardet - imported by bs4.dammit
-missing module named lxml - imported by bs4.builder._lxml
-missing module named 'html5lib.treebuilders' - imported by bs4.builder._html5lib
-missing module named 'html5lib.constants' - imported by bs4.builder._html5lib
-missing module named html5lib - imported by bs4.builder._html5lib
+missing module named ordereddict - imported by html5lib.treewalkers.etree, html5lib.filters.alphabeticalattributes
+missing module named StringIO - imported by six
+missing module named 'genshi.core' - imported by html5lib.treewalkers.genshistream
+missing module named genshi - imported by html5lib.treewalkers.genshistream
+missing module named datrie - imported by html5lib.trie.datrie
+missing module named charade - imported by html5lib.inputstream
+runtime module named six.moves - imported by html5lib.inputstream
