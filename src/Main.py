@@ -17,7 +17,7 @@ try:
     print("Urls extracted from file. Preparing for dank meme extraction")
 except FileNotFoundError:
     print("URL_CONFIG.txt was not found")
-    exit()
+    exit(1)
 #
 # Iterate over items retrieved from URL_CONFIG
 url_results = ''
@@ -26,21 +26,21 @@ for line in file:
     obj = Meme_Object(line)
     #
     # Ignore commented lines
-    if obj.get_element()[0] == "#":
+    if obj.element[0] == "#":
         continue
     #
     try:
-        page = urlopen(obj.get_url()).read()
+        page = urlopen(obj.url).read()
     except urllib.error.URLError as e:
         print(e)
-        print("["+obj.get_url()+"] did not give me any memes!")
+        print("["+obj.url+"] did not give me any memes!")
         continue
     soup = BeautifulSoup(page, 'html.parser')
-    soup = soup.find_all(obj.get_element())
-    print("Extracting dank memes from [" + obj.get_url() + "]")
+    soup = soup.find_all(obj.element)
+    print("Extracting dank memes from [" + obj.url + "]")
     #
     for link in soup:
-        meme_pic = link.get(obj.get_value())
+        meme_pic = link.get(obj.value)
         if meme_pic is not None:
             url_results += meme_pic + '\n'
 #
@@ -50,7 +50,7 @@ try:
     f.write(url_results)
 except FileNotFoundError:
     print("URL_RESULTS.txt was not found")
-    exit()
+    exit(1)
 else:
     print("Enough memes have been collected for a while, I need some rest for now.")
 
